@@ -5,7 +5,6 @@ future
 lmdb
 numpy
 opencv-python
-Pillow
 pyyaml
 requests
 scikit-image
@@ -20,4 +19,3 @@ insightface>=0.7.3
 onnxruntime
 basicsr
 facelib==1.5
-utils
