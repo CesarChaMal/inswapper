@@ -42,8 +42,6 @@ try:
 except pkg_resources.DistributionNotFound:
     print("FaceLib is not installed.")
 
-
-
 try:
     from facelib.utils import face_restoration_helper
     print("Module face_restoration_helper is available in FaceLib.")
