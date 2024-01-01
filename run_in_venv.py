@@ -31,3 +31,21 @@ run_python_command_in_venv(venv_python_path, command)
 # Command to install requirements from requirements.txt
 command = 'import subprocess; subprocess.run(["pip", "install", "git+https://github.com/sajjjadayobi/FaceLib.git"], check=True)'
 run_python_command_in_venv(venv_python_path, command)
+
+
+import pkg_resources
+
+# Check the installed version of FaceLib
+try:
+    version = pkg_resources.get_distribution('facelib').version
+    print(f"FaceLib version: {version}")
+except pkg_resources.DistributionNotFound:
+    print("FaceLib is not installed.")
+
+
+
+try:
+    from facelib.utils import face_restoration_helper
+    print("Module face_restoration_helper is available in FaceLib.")
+except ImportError as e:
+    print("Module face_restoration_helper not found in FaceLib:", e)
