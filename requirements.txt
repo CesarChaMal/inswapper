@@ -18,4 +18,3 @@ lpips
 insightface>=0.7.3
 onnxruntime
 basicsr
-facelib==1.5
