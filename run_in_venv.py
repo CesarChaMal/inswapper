@@ -27,3 +27,7 @@ run_python_command_in_venv(venv_python_path, command)
 # Command to install requirements from requirements.txt
 command = 'import subprocess; subprocess.run(["pip", "install", "-r", "/content/inswapper/requirements.txt"], check=True)'
 run_python_command_in_venv(venv_python_path, command)
+
+# Command to install requirements from requirements.txt
+command = 'import subprocess; subprocess.run(["pip", "install", "facelib", check=True)'
+run_python_command_in_venv(venv_python_path, command)
