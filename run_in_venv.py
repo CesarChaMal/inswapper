@@ -29,7 +29,8 @@ command = 'import subprocess; subprocess.run(["pip", "install", "-r", "/content/
 run_python_command_in_venv(venv_python_path, command)
 
 # Command to install requirements from requirements.txt
-command = 'import subprocess; subprocess.run(["pip", "install", "git+https://github.com/sajjjadayobi/FaceLib.git"], check=True)'
+# command = 'import subprocess; subprocess.run(["pip", "install", "git+https://github.com/sajjjadayobi/FaceLib.git"], check=True)'
+command = 'import subprocess; subprocess.run(["pip", "install", "git+https://github.com/xinntao/facexlib.git"], check=True)'
 run_python_command_in_venv(venv_python_path, command)
 
 import pkg_resources
