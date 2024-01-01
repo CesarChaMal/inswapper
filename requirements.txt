@@ -20,3 +20,4 @@ insightface>=0.7.3
 onnxruntime
 basicsr
 facelib
+facelib.utils
