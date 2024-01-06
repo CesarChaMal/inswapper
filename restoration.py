@@ -1,7 +1,6 @@
 import sys
-# sys.path.append('./CodeFormer/CodeFormer')
-sys.path.append('/content/CodeFormer/CodeFormer')
-# sys.path.append('./inswapper/CodeFormer/CodeFormer')
+sys.path.append('./CodeFormer/CodeFormer')
+# sys.path.append('/content/CodeFormer/CodeFormer')
 
 
 import os
