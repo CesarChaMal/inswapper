@@ -1,10 +1,10 @@
 import sys
 sys.path.append('./CodeFormer/CodeFormer')
 # sys.path.append('./RealESRGANDistortion')
-sys.path.append('/content/RealESRGANDistortion')
+# sys.path.append('/content/RealESRGANDistortion')
 # sys.path.append('./inswapper/CodeFormer/CodeFormer')
 # sys.path.append('./inswapper/RealESRGANDistortion')
-import realesrgan_utils
+# import realesrgan_utils
 
 
 import os
@@ -16,8 +16,8 @@ from torchvision.transforms.functional import normalize
 from basicsr.utils import imwrite, img2tensor, tensor2img
 from basicsr.utils.download_util import load_file_from_url
 from basicsr.archs.rrdbnet_arch import RRDBNet
-from realesrgan_utils import RealESRGANer
-# from basicsr.utils.realesrgan_utils import RealESRGANer
+# from realesrgan_utils import RealESRGANer
+from basicsr.utils.realesrgan_utils import RealESRGANer
 from basicsr.utils.registry import ARCH_REGISTRY
 
 from facelib.utils.face_restoration_helper import FaceRestoreHelper
