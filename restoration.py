@@ -1,10 +1,6 @@
 import sys
 sys.path.append('./CodeFormer/CodeFormer')
-# sys.path.append('./RealESRGANDistortion')
-# sys.path.append('/content/RealESRGANDistortion')
 # sys.path.append('./inswapper/CodeFormer/CodeFormer')
-# sys.path.append('./inswapper/RealESRGANDistortion')
-# import realesrgan_utils
 
 
 import os
