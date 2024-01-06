@@ -18,4 +18,4 @@ lpips
 insightface>=0.7.3
 onnxruntime
 basicsr
-git+https://github.com/xinntao/facexlib.git
+git+https://github.com/sajjjadayobi/FaceLib.git
