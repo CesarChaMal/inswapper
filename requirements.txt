@@ -17,4 +17,3 @@ yapf
 lpips
 insightface>=0.7.3
 onnxruntime
-git+https://github.com/xinntao/BasicSR.git
