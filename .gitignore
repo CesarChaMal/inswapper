@@ -3,4 +3,5 @@
 result.png
 checkpoints
 venv
-#data
+data
+miniconda.sh
