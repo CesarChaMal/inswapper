@@ -13,6 +13,9 @@ import onnxruntime
 import numpy as np
 from PIL import Image
 from typing import List, Union, Dict, Set, Tuple
+import os
+device_choice = os.getenv('DEVICE', 'cuda')  # Default to cuda
+print(f"Device selected: {device_choice}")
 
 
 def getFaceSwapModel(model_path: str):

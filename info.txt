@@ -1,0 +1,2 @@
+./run.sh cuda
+./run.sh cpu
